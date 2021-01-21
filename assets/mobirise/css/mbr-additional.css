@@ -1087,8 +1087,15 @@ section.lazy-placeholder:after {
     flex-shrink: 0;
   }
 }
-.cid-qxF9tMPSBX {
-  background-video: url("../../../assets/images/P9-logo1.mp4");
+@media (max-width: 767px) {
+    #videoBG {
+        display: none;
+    }
+    body {
+        background: url('poster.jpg');
+        background-size: cover;
+    }
+}
 }
 .cid-slEA94sgA0 {
   background: #ffffff;
