@@ -1087,9 +1087,26 @@ section.lazy-placeholder:after {
     flex-shrink: 0;
   }
 }
-.cid-qxF9tMPSBX {
-  background-image: url("../../../assets/images/code-5113374-1920-1920x1280.jpg");
+#videoBG {
+    position:fixed;
+    z-index: -1;
+   
 }
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width:100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #videoBG { 
+        width:auto;
+        height: 100%;
+    }
+}
+
+
 .cid-slEA94sgA0 {
   background: #ffffff;
 }
@@ -1101,6 +1118,15 @@ section.lazy-placeholder:after {
   .cid-slEA94sgA0 .video-block {
     width: 100% !important;
   }
+}
+@media (max-width: 767px) {
+    #videoBG {
+        display: none;
+    }
+    body {
+        background: url("../../../assets/images/code-5113374-1920-1920x1280.jpg");
+        background-size: cover;
+    }
 }
 .cid-sm2KgqP922 {
   padding-top: 90px;
