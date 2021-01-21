@@ -1119,6 +1119,15 @@ section.lazy-placeholder:after {
     width: 100% !important;
   }
 }
+@media (max-width: 767px) {
+    #videoBG {
+        display: none;
+    }
+    body {
+        background: url("../../../assets/images/code-5113374-1920-1920x1280.jpg");
+        background-size: cover;
+    }
+}
 .cid-sm2KgqP922 {
   padding-top: 90px;
   padding-bottom: 90px;
