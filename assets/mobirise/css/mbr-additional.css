@@ -1115,12 +1115,12 @@ section.lazy-placeholder:after {
   margin: auto;
   width: 100% ;
 }
-@media (max-width: 768px) {
+@media (max-width: 330px) {
   .cid-slEA94sgA0 .video-block {
     width: 100% ;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 330px) {
     #videoBG {
         display: none;
     }
