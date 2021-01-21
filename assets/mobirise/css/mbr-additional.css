@@ -1096,10 +1096,7 @@ html,body {
     margin: 0;
 }
 #videoBG {
-    position:fixed;
-    z-index: -1;
-    width: auto;     
-    height: auto;
+   
     display: block;
     margin: 0 auto;
 }
