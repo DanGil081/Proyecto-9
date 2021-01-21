@@ -1095,34 +1095,16 @@ html,body {
     height: 100vh;
     margin: 0;
 }
-#videoBG {
-    position:fixed;
-    z-index: -1;
-    text-align:center;
-    width: auto;     
-    height: auto;
-    
+body {
+    padding:0px;
+    margin:0px;
 }
-@media (min-aspect-ratio: 3/2) {
-    #videoBG {
-        width:100%;
-        height: auto;
-    }
-}
-@media (max-aspect-ratio: 16/9) {
-    #videoBG { 
-        width:auto;
-        height: 100%;
-    }
-}
-@media (max-width: 330px) {
-    #videoBG {
-        display: none;
-    }
-    body {
-        background: url("../../../assets/images/code-5113374-1920-1920x1280.jpg");
-        background-size: cover;
-    }
+.video_container, .video {
+    padding:0px;
+    margin:0px;
+    width:100%;
+    height:100vh;
+    object-fit: cover;
 }
 .cid-slEA94sgA0 {
   background: #ffffff;
