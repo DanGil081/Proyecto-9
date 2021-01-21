@@ -1101,7 +1101,7 @@ html,body {
     width: auto;     
     height: auto;
     display: block;
-    margin: auto;
+    margin: 0 auto;
 }
 @media (min-aspect-ratio: 16/9) {
     #videoBG {
