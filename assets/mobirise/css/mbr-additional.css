@@ -1090,37 +1090,23 @@ section.lazy-placeholder:after {
 .cid-qxF9tMPSBX {
   background-image: url("../../../assets/images/code-5113374-1920-1920x1280.jpg");
 }
-html,body {
-    width:100vw;
-    height: 100vh;
-    margin: 0;
+.videodiv {
+    text-align: center;
 }
-#videoBG {
-    position:fixed;
-    z-index: -1;
-    width: auto;     
-    height: auto;;
-}
-@media (min-aspect-ratio: 16/9) {
-    #videoBG {
-        width:100%;
-        height: auto;
-    }
-}
-@media (max-aspect-ratio: 16/9) {
-    #videoBG { 
-        width:auto;
-        height: 100%;
-    }
-}
-@media (max-width: 330px) {
-    #videoBG {
-        display: none;
-    }
-    body {
-        background: url("../../../assets/images/code-5113374-1920-1920x1280.jpg");
-        background-size: cover;
-    }
+
+.videodiv videoBG {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    display: block;
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
 }
 .cid-slEA94sgA0 {
   background: #ffffff;
