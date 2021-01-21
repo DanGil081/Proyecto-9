@@ -1106,16 +1106,6 @@ section.lazy-placeholder:after {
     }
 }
 
-@media (max-width: 767px) {
-    #videoBG {
-        display: none;
-    }
-    body {
-        background: url("../../../assets/images/pexels-artem-podrez-4492497-2000x1125.jpg");
-        background-size: cover;
-    }
-}
-}
 
 .cid-slEA94sgA0 {
   background: #ffffff;
