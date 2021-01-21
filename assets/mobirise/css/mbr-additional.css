@@ -1082,7 +1082,7 @@ section.lazy-placeholder:after {
     border-left: .30em solid transparent;
   }
 }
-@media (min-width: 767px) {
+@media (min-width: 330px) {
   .cid-qxF9uIJOEh .menu-logo {
     flex-shrink: 0;
   }
