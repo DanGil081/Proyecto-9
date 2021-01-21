@@ -1089,7 +1089,7 @@ section.lazy-placeholder:after {
 }
 
 #videoBG {
-    position:fixed;
+    position:absolute;
     z-index: -1;
     width: auto;     
     height: auto;
