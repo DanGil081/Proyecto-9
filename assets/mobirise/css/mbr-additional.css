@@ -1090,6 +1090,36 @@ section.lazy-placeholder:after {
 .cid-qxF9tMPSBX {
   background-image: url("../../../assets/images/code-5113374-1920-1920x1280.jpg");
 }
+html,body {
+    width:100vw;
+    height: 100vh;
+    margin: 0;
+}
+#videoBG {
+    position:fixed;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width:100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #videoBG { 
+        width:auto;
+        height: 100%;
+    }
+}
+@media (max-width: 330px) {
+    #videoBG {
+        display: none;
+    }
+    body {
+        background: url("../../../assets/images/code-5113374-1920-1920x1280.jpg");
+        background-size: cover;
+    }
+}
 .cid-slEA94sgA0 {
   background: #ffffff;
 }
