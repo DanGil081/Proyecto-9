@@ -1095,7 +1095,7 @@ section.lazy-placeholder:after {
 }
 @media (min-aspect-ratio: 16/9) {
     #videoBG {
-        width:100%;
+        width:auto;
         height: auto;
     }
 }
@@ -1103,7 +1103,7 @@ section.lazy-placeholder:after {
 @media (max-aspect-ratio: 16/9) {
     #videoBG { 
         width:auto;
-        height: 100%;
+        height: auto;
     }
 }
 
