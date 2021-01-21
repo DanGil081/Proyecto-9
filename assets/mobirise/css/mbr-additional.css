@@ -1096,7 +1096,7 @@ html,body {
     margin: 0;
 }
 #videoBG {
-    width: 70%; /*or whatever % you prefer*/
+    width: 50%; /*or whatever % you prefer*/
     margin: 0 auto;
     display: block;
 }
