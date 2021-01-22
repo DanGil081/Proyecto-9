@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap);
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 
 
@@ -55,6 +55,14 @@ body {
   font-display: swap;
 }
 .display-8 > .mbr-iconfont {
+  font-size: 3rem;
+}
+.display-9 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3rem;
+  font-display: swap;
+}
+.display-9 > .mbr-iconfont {
   font-size: 3rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
