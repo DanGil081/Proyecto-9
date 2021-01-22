@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Sanchez:400,400i&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap);
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
 
 
 
@@ -47,6 +48,14 @@ body {
 }
 .display-7 > .mbr-iconfont {
   font-size: 1.6rem;
+}
+.display-8 {
+  font-family: 'Coming Soon', cursive;
+  font-size: 1.4rem;
+  font-display: swap;
+}
+.display-8 > .mbr-iconfont {
+  font-size: 2.24rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
